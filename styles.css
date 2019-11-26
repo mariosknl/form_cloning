@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #edeef2;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  background: chartreuse;
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+
+  width: 350px;
+  height: 400px;
+  position: relative;
+  left: 35%;
+}
+
+form > h3 {
+  padding: 10px 25px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+fieldset {
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  margin: 0;
+}
+
+.account-info {
+  padding: 20px 20px 0 0;
+}
+.account-info label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
