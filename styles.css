@@ -11,24 +11,12 @@ body {
   text-align: center;
   height: 100%;
 }
-/* NavBar */
+/* Header */
 header {
   width: 100%;
   height: 80px;
 
   margin: 10px 1px;
-}
-.text {
-  float: right;
-  width: 150px;
-  position: relative;
-  top: 5%;
-}
-.navTexts {
-  width: 200px;
-  float: right;
-  font-size: 10px;
-  background: #edeef2;
 }
 .signIn {
   width: 100px;
@@ -48,21 +36,50 @@ button {
   background-repeat: no-repeat;
   background-position: 10px;
 }
+
+button:hover{
+  background: #0a589c;
+  background-image: url(./images/outline_lock_white_18dp.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  
+  transition: 0.3s;
+  cursor:pointer;
+}
+
+
+.text {
+  float: right;
+  width: 150px;
+  position: relative;
+  top: 5%;
+}
+.navTexts {
+  width: 200px;
+  float: right;
+  font-size: 10px;
+  background: #edeef2;
+}
+
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/*Main section/form*/
 .container {
   width: 400px;
-  height: 600px;
+  height: 590px;
   border: 1px solid #e7dada;
   display: block;
   margin-left: auto;
   margin-right: auto;
   background: white;
+  overflow: hidden;
 }
+
 form {
   width: 85%;
   margin-left: auto;
@@ -70,13 +87,24 @@ form {
   background: white;
 }
 
+
+
 .title {
-  /* text-align: center; */
   font-size: 1.2rem;
   margin: 20px 15px;
 }
+.account-info,
+label,
+small,
+h3,
+p,
+a {
+  background: white;
+  border: none;
+}
 label {
   margin: 5px auto;
+  
 }
 input {
   background: white;
@@ -88,41 +116,54 @@ input {
   box-sizing: border-box;
   border: 0.5px solid rgb(221, 220, 220);
 }
-
-.account-info,
-label,
-small,
-h3,
-p,
-a {
-  background: white;
-  border: none;
-}
-
-a {
-  color: #1f7ac8;
-  text-decoration: none;
-  font-size: 0.7rem;
-}
-
 input[type="password"] {
   background-image: url(./images/lock.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 30px;
-  filter: ;
 }
-
+a {
+  color: #1f7ac8;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+.titlesForm{
+  float:left;
+  background: inherit;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.phoneBelow{
+  position: relative;
+  right:101px;
+  bottom:18px;
+  font-size:8px;
+  background: inherit;  
+}
 .btn {
+  background-image: url(./images/outline_lock_white_18dp.png);
+  background-position: 80px;
+  background-repeat: no-repeat;
+  background-size: 20px;
   width: 100%;
   height: 40px;
-  background: #1f7ac8;
   color: white;
   font-size: 1rem;
   border-radius: 5px;
   margin-bottom: 30px;
+  
+  
 }
-
+.btn:hover{
+  background: rgb(8, 79, 141);
+  background-image: url(./images/outline_lock_white_18dp.png);
+  background-position: 80px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  
+}
 .infos {
   width: 250px;
   background: white;
@@ -131,3 +172,55 @@ input[type="password"] {
   margin-left: auto;
   margin-right: auto;
 }
+
+.footerCaptcha{
+  margin-top: 10px;
+  width: 100%;
+  height:67px;
+  background:#ECEEF1;
+}
+.textCaptcha{
+  padding-top:15px;
+  background: inherit;
+  font-size: 10px;
+}
+
+footer{
+  background:inherit;
+  width:700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.finalLinks{
+  background: inherit;
+}
+.finalLinks:hover{
+  text-decoration: underline;
+}
+
+.footerText{
+  background: #EDEEF2;
+  font-size: 10px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
