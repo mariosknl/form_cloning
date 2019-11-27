@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background: #edeef2;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -10,7 +11,43 @@ body {
   text-align: center;
   height: 100%;
 }
+/* NavBar */
+header {
+  width: 100%;
+  height: 80px;
 
+  margin: 10px 1px;
+}
+.text {
+  float: right;
+  width: 150px;
+  position: relative;
+  top: 5%;
+}
+.navTexts {
+  width: 200px;
+  float: right;
+  font-size: 10px;
+  background: #edeef2;
+}
+.signIn {
+  width: 100px;
+  float: right;
+  margin-right: 30px;
+}
+
+button {
+  background: #1f7ac8;
+  color: white;
+  width: 110px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-image: url(./images/outline_lock_white_18dp.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
 .logo {
   display: block;
   margin-left: auto;
@@ -18,58 +55,79 @@ body {
 }
 
 .container {
-  background: chartreuse;
-  width: 100%;
-  height: 500px;
-  box-sizing: border-box;
-}
-
-form {
-  border: 1px solid black;
-  border-radius: 5px;
-  font-size: 14px;
-
-  width: 350px;
-  height: 400px;
-  position: relative;
-  left: 35%;
-}
-
-form > h3 {
-  padding: 10px 25px;
-  font-size: 1.5rem;
-  font-weight: lighter;
-  font-family: Arial, Helvetica, sans-serif;
-}
-fieldset {
-  border: 2px solid black;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-input {
-  border-radius: 5px;
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-  margin: 0;
-}
-
-.account-info {
-  padding: 20px 20px 0 0;
-}
-.account-info label {
-  color: #395870;
+  width: 400px;
+  height: 600px;
+  border: 1px solid #e7dada;
   display: block;
-  font-weight: bold;
-  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
 }
-.account-info input {
-  background: #fff;
-  border: 1px solid #c6c7cc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  color: #636466;
-  padding: 6px;
-  margin-top: 6px;
+form {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
+
+.title {
+  /* text-align: center; */
+  font-size: 1.2rem;
+  margin: 20px 15px;
+}
+label {
+  margin: 5px auto;
+}
+input {
+  background: white;
   width: 100%;
+  padding: 12px 12px;
+  margin: 10px 0px;
+  display: inline-block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 0.5px solid rgb(221, 220, 220);
+}
+
+.account-info,
+label,
+small,
+h3,
+p,
+a {
+  background: white;
+  border: none;
+}
+
+a {
+  color: #1f7ac8;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+input[type="password"] {
+  background-image: url(./images/lock.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  filter: ;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  background: #1f7ac8;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.infos {
+  width: 250px;
+  background: white;
+  font-size: 12px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
