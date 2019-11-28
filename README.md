@@ -1,7 +1,8 @@
 # Form_cloning
     Creating something similar to the following page. 
 
-
+This is the original version of the website:
+![alt form](https://github.com/mariosknl/form_cloning/blob/finalDetails/images/intuit_website.png)
 
 For the fonts we use: 
 
