@@ -4,6 +4,11 @@
 This is the original version of the website:
 ![alt form](https://github.com/mariosknl/form_cloning/blob/finalDetails/images/intuit_website.png)
 
+
+Raw Githack live demo of our page! Hope you like it!
+
+https://raw.githack.com/mariosknl/form_cloning/finalDetails/index.html
+
 For the fonts we use: 
 
 https://fonts.google.com/
@@ -18,6 +23,3 @@ Marios Kanellopoulos | https://github.com/mariosknl
 Eduardo Cruz         | https://github.com/EdCrux 
 
 
-Raw Githack live demo of our page! Hope you like it!
-
-https://raw.githack.com/mariosknl/form_cloning/finalDetails/index.html
